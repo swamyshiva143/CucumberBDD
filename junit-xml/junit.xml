@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="12.019453">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="12.018971">
+<system-out><![CDATA[Given user is already on login page.........................................passed
+When title of login page is free CRM........................................passed
+Then user enters username and password......................................passed
+Then user clicks on login button............................................passed
+Then user is on Homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Feature" name="Free CRM HomePage Test Scenario" time="0.000482">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.title_of_the_homepage_is_Cogmento_CRM(LoginStepDefinition.java:68)&#13;&#10;&#9;at ✽.When title of the homepage is Cogmento CRM(D:/Swamyshiva/swamyshiva/CucumberBDD/src/main/java/Features/login.feature:15)&#13;&#10;"><![CDATA[Given user login to Homepage................................................passed
+When title of the homepage is Cogmento CRM..................................failed
+Then user click on the Contact Link.........................................skipped
+Then user has to Quit from the page.........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.LoginStepDefinition.title_of_the_homepage_is_Cogmento_CRM(LoginStepDefinition.java:68)
+	at ✽.When title of the homepage is Cogmento CRM(D:/Swamyshiva/swamyshiva/CucumberBDD/src/main/java/Features/login.feature:15)
+]]></failure>
+</testcase>
+</testsuite>

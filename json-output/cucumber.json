@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11276382100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29360200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 620312100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84733000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8184100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Free CRM HomePage Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-homepage-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user login to Homepage",
+            "match": {
+              "location": "LoginStepDefinition.user_login_to_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 397900,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.LoginStepDefinition.title_of_the_homepage_is_Cogmento_CRM(LoginStepDefinition.java:68)\r\n\tat ✽.When title of the homepage is Cogmento CRM(D:/Swamyshiva/swamyshiva/CucumberBDD/src/main/java/Features/login.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "title of the homepage is Cogmento CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_the_homepage_is_Cogmento_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click on the Contact Link",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_the_Contact_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user has to Quit from the page",
+            "match": {
+              "location": "LoginStepDefinition.user_has_to_Quit_from_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "D:/Swamyshiva/swamyshiva/CucumberBDD/src/main/java/Features/login.feature"
+  }
+]
